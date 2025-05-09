@@ -1,0 +1,42 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+export default function Third() {
+  return (
+    <>
+      <div className="bg-black h-full">
+        <div className="pb-20 w-full">
+          <div className="text-center text-4xl p-20 text-white">About Me</div>
+        </div>
+        <div className="sm:block md:flex lg:flex gap-4 justify-between pb-20">
+          <div className="w-1/2 sm:w-full">
+            <motion.img
+              className="rounded-3xl p-4 sm:w-full"
+              animate={{ x: [-1000, 0, 0] }}
+              transition={{ duration: 4, repeat: 0, ease: 'easeInOut' }}
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrHwo9yJo1N1_PA7xcpexHkaNyPyYHMW_pg&s"
+            ></motion.img>
+          </div>
+          <div className="w-1/2 sm:w-full p-4">
+            <motion.p
+              className="text-white text-xl"
+              animate={{ x: [1000, 0, 0] }}
+              transition={{ duration: 4, repeat: 0, ease: 'easeInOut' }}
+            >
+              I am a dedicated and versatile frontend developer with a passion
+              for creating efficient and user-friendly web applications. With 1
+              year of professional experience, I have worked with a variety of
+              technologies, including React, Javascript, Java, HTML, CSS, and
+              MongoDB. My journey in web development began with a deep curiosity
+              for how things work, and it has evolved into a career where I
+              continuously strive to learn and adapt to new challenges. I thrive
+              in collaborative environments and enjoy solving complex problems
+              to deliver high-quality solutions. Outside of coding, I enjoy
+              staying active, exploring new technologies, and contributing to
+              open-source projects.
+            </motion.p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
