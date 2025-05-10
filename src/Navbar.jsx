@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center font-thin h-16 ">
            
           <motion.div className="text-xl font-Orbitron italic" 
-             animate={{ x: [0, 100, 0] }}
+             animate={{ x: [0, 70, 0] }}
              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           >SACHIN</motion.div>
 

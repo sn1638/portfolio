@@ -8,38 +8,38 @@ import { motion } from 'framer-motion';
 export default function Fourth() {
   return (
     <>
-    <div className="bg-black w-full h-full overflow-x-hidden">
+    <div className="bg-black w-full h-full overflow-x-hidden px-5">
       <div className="  pb-20 w-full">
         <div className="text-white text-4xl text-center">Technologies</div>
       </div>
-      <div className=" sm:grid grid-cols-2 md:flex lg:flex justify-center items-center gap-5 ">
+      <div className=" grid grid-cols-2 md:flex lg:flex justify-center items-center gap-5 ">
 
       <motion.div className="center justify-center flex  bg-black text-violet-500 p-3 rounded-3xl border-gray-500 border-4 "
-      animate={{ y: [10, -10, 10] }}
+      animate={{ y: [12, -12, 12] }}
       transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}>
-       < FaReact size={70}/>
+       < FaReact size={80}/>
         </motion.div>
         <motion.div
             className=" center justify-center flex bg-black text-violet-500 rounded-3xl p-3 border-gray-500 border-4"
-            animate={{ y: [-10, 10, -10] }}
+            animate={{ x: [12, -12, 12] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           >
-            <TbBrandNextjs size={70} />
+            <TbBrandNextjs size={80} />
           </motion.div>
 
 
       <motion.div 
       className="center justify-center flex bg-black text-violet-500 p-3 rounded-3xl border-gray-500 border-4"
-        animate={{ y: [10, -10, 10] }}
+        animate={{ x: [-12, 12, -12] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             >
-      <FaNodeJs size={70} />
+      <FaNodeJs size={80} />
         </motion.div>
 
       <motion.div className=" center justify-center flex bg-black text-violet-500 p-3 rounded-3xl border-gray-500 border-4"
-      animate={{ y: [-10, 10, -10] }}
+      animate={{ y: [-12, 12, -12] }}
       transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}>
-      <BiLogoMongodb size={70} />
+      <BiLogoMongodb size={80} />
         </motion.div>
 
         </div>

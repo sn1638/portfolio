@@ -6,7 +6,7 @@ export default function Second() {
       <div className=" overflow-x-hidden w-full mx-auto bg-black sm:block md:flex lg:flex gap-4 items-center justify-center  pt-10 h-full pb-20">
         <div className="w-full lg:w-1/2">
           <motion.div
-            className="text-center text-white font-thin text-6xl py-20"
+            className="text-center text-white font-thin text-6xl pt-10 pb-20"
             initial={{ x: '-100vw' }}
              animate={{ x: 0 }}
             transition={{ duration: 1, repeat: 0, ease: 'easeInOut' }}
@@ -37,10 +37,10 @@ export default function Second() {
           </motion.p>
         </div>
         <div className="w-full lg:w-1/2">
-          <div className="py-20 px-8 w-full sm:mt-0">
+          <div className=" px-8 w-full sm:mt-0 py-10 ">
             <motion.img
               src="https://static.vecteezy.com/system/resources/previews/044/316/395/non_2x/anonymous-hacker-typing-computer-laptop-cybercrime-cyberattack-dark-web-concept-photo.jpeg"
-              className="w-full "
+              className="w-full rounded-3xl"
               initial={{ x: '100vw' }}
              animate={{ x: 0 }}
               transition={{ duration: 2.5, repeat: 0, ease: 'easeInOut' }}
