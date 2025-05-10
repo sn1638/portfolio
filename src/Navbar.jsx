@@ -9,16 +9,15 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white">
+    <nav className="bg-black text-white overflow-x-hidden">
       <div className=" mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center font-thin h-16 ">
-          {/* Logo / Brand */}
+           
           <motion.div className="text-xl font-Orbitron italic" 
              animate={{ x: [0, 100, 0] }}
              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           >SACHIN</motion.div>
 
-          {/* Desktop Menu */}
           <div className="hidden md:flex gap-6">
             <a
               href="https://github.com/sn1638"
@@ -50,7 +49,6 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -73,7 +71,6 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden mt-2 flex justify-evenly">
                        <a
