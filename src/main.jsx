@@ -7,7 +7,7 @@ import Third from './third'
 import Fourth from './fourth'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <StrictMode className="bg-black">
     <Navbar />
     <Second />
     <Third/>

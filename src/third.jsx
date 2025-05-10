@@ -3,20 +3,20 @@ import { motion } from 'framer-motion';
 export default function Third() {
   return (
     <>
-      <div className="bg-black h-full">
+      <div className="bg-black h-full w-full">
         <div className="pb-20 w-full">
           <div className="text-center text-4xl p-20 text-white">About Me</div>
         </div>
         <div className="sm:block md:flex lg:flex gap-4 justify-between pb-20">
-          <div className="w-1/2 sm:w-full">
+          <div className="w-full lg:w-1/2">
             <motion.img
-              className="rounded-3xl p-4 sm:w-full"
+              className="rounded-3xl p-4 w-full"
               animate={{ x: [-1000, 0, 0] }}
               transition={{ duration: 4, repeat: 0, ease: 'easeInOut' }}
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUrHwo9yJo1N1_PA7xcpexHkaNyPyYHMW_pg&s"
             ></motion.img>
           </div>
-          <div className="w-1/2 sm:w-full p-4">
+          <div className="w-full lg:w-1/2 p-4">
             <motion.p
               className="text-white text-xl"
               animate={{ x: [1000, 0, 0] }}
