@@ -1,30 +1,29 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 export default function Second() {
   return (
     <>
-      <div className=" overflow-x-hidden w-full mx-auto bg-black sm:block md:flex lg:flex gap-4 items-center justify-center  pt-10 h-full pb-20">
+      <div className="border border-gray-600 overflow-x-hidden w-full mx-auto bg-black sm:block md:flex lg:flex gap-4 items-center justify-center  pt-10 h-full pb-20">
         <div className="w-full lg:w-1/2">
           <motion.div
-            className="italic text-center text-white font-thin text-6xl pt-10 pb-20"
-            initial={{ x: '-100vw' }}
-             animate={{ x: 0 }}
-            transition={{ duration: 1, repeat: 0, ease: 'easeInOut' }}
+            className="border border-gray-700 rounded-2xl bg-gray-900 italic text-center text-white font-thin text-6xl pt-10 pb-20"
+            initial={{ x: '-100vw',opacity:0 }}
+             animate={{ x: 0 ,opacity:1}}
+            transition={{ duration:1, repeat: 0, ease: 'easeInOut' }}
           >
             Sachin kumar verma
           </motion.div>
           <motion.div
-            className="text-center text-3xl text-white"
-             initial={{ x: '-100vw' }}
-             animate={{ x: 0 }}
+            className="border border-gray-700 pb-1 rounded-xl bg-gray-900 text-center text-3xl text-white"
+             initial={{ x: '-100vw',opacity:0 }}
+             animate={{ x: 0,opacity:1 }}
             transition={{ duration: 1.5, repeat: 0, ease: 'easeInOut' }}
           >
             Full stack Developer
           </motion.div>
           <motion.p
-            className="w-full text-center text-white p-4 py-6 text-thin text-xl sm:w-full"
-             initial={{ x: '-100vw' }}
-             animate={{ x: 0 }}
+            className="bg-gray-900 border border-gray-700 rounded-2xl w-full text-center text-white p-4 py-6 text-thin text-xl sm:w-full"
+             initial={{ x: '-100vw',opacity:0 }}
+             animate={{ x: 0,opacity:1 }}
             transition={{ duration: 2, repeat: 0, ease: 'easeInOut' }}
           >
             I am a passionate full stack developer and competitive programmer with a knack for crafting
@@ -41,8 +40,8 @@ export default function Second() {
               alt='unable to download the image'
               src="https://static.vecteezy.com/system/resources/previews/044/316/395/non_2x/anonymous-hacker-typing-computer-laptop-cybercrime-cyberattack-dark-web-concept-photo.jpeg"
               className="w-full rounded-3xl"
-              initial={{ x: '100vw' }}
-             animate={{ x: 0 }}
+              initial={{ x: '100vw',opacity:0 }}
+             animate={{ x: 0,opacity:1 }}
               transition={{ duration: 2.5, repeat: 0, ease: 'easeInOut' }}
             ></motion.img>
           </div>

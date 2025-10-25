@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 export default function Fourth() {
   return (
     <>
-    <div className="bg-black w-full h-full overflow-x-hidden px-5">
+    <div className="bg-black w-full h-full overflow-x-hidden px-5 border border-gray-600 pt-20">
       <div className="  pb-20 w-full">
         <div className="text-white text-4xl text-center">Technologies</div>
       </div>

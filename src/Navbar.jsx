@@ -9,8 +9,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white overflow-x-hidden">
-      <div className=" mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-black text-white overflow-x-hidden ">
+      <div className=" mx-auto px-4 sm:px-6 lg:px-8 border-gray-700">
         <div className="flex justify-between items-center font-thin h-16 ">
            
           <motion.div className="text-xl font-Orbitron italic" 
