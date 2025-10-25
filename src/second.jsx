@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 export default function Second() {
   return (
     <>
-      <div className="border border-gray-600 overflow-x-hidden w-full mx-auto bg-black sm:block md:flex lg:flex gap-4 items-center justify-center  pt-10 h-full pb-20">
+      <div className="border border-gray-600 border-t-0 overflow-x-hidden w-full mx-auto bg-black sm:block md:flex lg:flex gap-4 items-center justify-center  pt-10 h-full pb-20">
         <div className="w-full lg:w-1/2">
           <motion.div
             className="border border-b-0 border-gray-700 rounded-2xl rounded-b-none bg-gray-900 italic text-center text-white font-thin text-6xl pt-10 pb-20"
