@@ -24,10 +24,10 @@ export default function Third() {
              animate={{ x: 0 }}
               transition={{ duration: 3, repeat: 0, ease: 'easeInOut' }}
             >
-              I am a dedicated and versatile frontend developer with a passion
+              I am a dedicated and Full stack developer with a passion
               for creating efficient and user-friendly web applications. With 1
               year of professional experience, I have worked with a variety of
-              technologies, including React, Javascript, Java, HTML, CSS, and
+              technologies, including React, Javascript,express, HTML, CSS, and
               MongoDB. My journey in web development began with a deep curiosity
               for how things work, and it has evolved into a career where I
               continuously strive to learn and adapt to new challenges. I thrive
