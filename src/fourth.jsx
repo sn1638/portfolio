@@ -4,6 +4,8 @@ import { TbSql } from "react-icons/tb";
 import { motion } from 'framer-motion';
 import { TbBrandCpp } from "react-icons/tb";
 import { FaPython } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+
 
 export default function Fourth() {
   return (
@@ -28,16 +30,21 @@ export default function Fourth() {
           </motion.div>
 
 
+      <motion.div className=" center justify-center flex bg-black text-violet-500 p-3 rounded-3xl border-gray-500 border-4"
+      animate={{ y: [12, -12, 12] }}
+      transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}>
+      <IoLogoJavascript size={80} />
+        </motion.div>
       <motion.div 
       className="center justify-center flex bg-black text-violet-500 p-3 rounded-3xl border-gray-500 border-4"
-        animate={{ x: [-12, 12, -12] }}
+        animate={{ x: [12, -12, 12] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             >
       <FaPython size={80} />
         </motion.div>
 
       <motion.div className=" center justify-center flex bg-black text-violet-500 p-3 rounded-3xl border-gray-500 border-4"
-      animate={{ y: [-12, 12, -12] }}
+      animate={{ y: [12, -12, 12] }}
       transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}>
       <TbBrandCpp size={80} />
         </motion.div>
