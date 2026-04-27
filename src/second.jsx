@@ -18,7 +18,7 @@ export default function Second() {
              animate={{ x: 0,opacity:1 }}
             transition={{ duration: 1.5, repeat: 0, ease: 'easeInOut' }}
           >
-            Full stack Developer
+            Problem-Solving Developer
           </motion.div>
           <motion.p
             className="bg-gray-900 border-t-0 rounded-t-none border border-gray-700 rounded-2xl w-full text-center text-white p-4 py-6 text-thin text-xl sm:w-full"
