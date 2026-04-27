@@ -24,17 +24,7 @@ export default function Third() {
              animate={{ x: 0,opacity:1 }}
               transition={{ duration: 3, repeat: 0, ease: 'easeInOut' }}
             >
-              I am a dedicated and Full stack developer with a passion
-              for creating efficient and user-friendly web applications. With 1
-              year of professional experience, I have worked with a variety of
-              technologies, including React, Javascript,express, HTML, CSS, and
-              MongoDB. My journey in web development began with a deep curiosity
-              for how things work, and it has evolved into a career where I
-              continuously strive to learn and adapt to new challenges. I thrive
-              in collaborative environments and enjoy solving complex problems
-              to deliver high-quality solutions. Outside of coding, I enjoy
-              staying active, exploring new technologies, and contributing to
-              open-source projects.
+                  Engineering student with strong expertise in Data Structures and Algorithms and hands-on experience in C++, Web Development, and foundational Machine Learning. Possesses a solid understanding of core Computer Science subjects including Operating Systems, Database Management Systems, and Computer Networks. Proven ability to solve complex problems efficiently and build real-world projects. Seeking an opportunity to contribute to scalable software solutions in a dynamic organization.I am a competitive programmer also. I have solved more than 400 problems on various competitive programming platforms.
             </motion.p>
           </div>
         </div>

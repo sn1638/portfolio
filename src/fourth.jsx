@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { BiLogoMongodb } from "react-icons/bi";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbSql } from "react-icons/tb";
 import { motion } from 'framer-motion';
+import { TbBrandCpp } from "react-icons/tb";
+import { FaPython } from "react-icons/fa";
 
 export default function Fourth() {
   return (
@@ -24,7 +24,7 @@ export default function Fourth() {
             animate={{ x: [12, -12, 12] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           >
-            <TbBrandNextjs size={80} />
+            <TbSql size={80} />
           </motion.div>
 
 
@@ -33,13 +33,13 @@ export default function Fourth() {
         animate={{ x: [-12, 12, -12] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
             >
-      <FaNodeJs size={80} />
+      <FaPython size={80} />
         </motion.div>
 
       <motion.div className=" center justify-center flex bg-black text-violet-500 p-3 rounded-3xl border-gray-500 border-4"
       animate={{ y: [-12, 12, -12] }}
       transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}>
-      <BiLogoMongodb size={80} />
+      <TbBrandCpp size={80} />
         </motion.div>
 
         </div>
@@ -50,6 +50,9 @@ export default function Fourth() {
             <div className=" flex center justify-center item-center pb-25 ">
             <a href="mailto:sachin111mrj@gmail.com" className="text-white text-2xl underline p-10">
         sachin111mrj@gmail.com
+      </a>
+            <a className="text-white text-2xl underline p-10">
+        +91 8957170954
       </a>
            
               </div>

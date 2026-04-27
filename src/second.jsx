@@ -26,12 +26,13 @@ export default function Second() {
              animate={{ x: 0,opacity:1 }}
             transition={{ duration: 2, repeat: 0, ease: 'easeInOut' }}
           >
-            I am a passionate full stack developer and competitive programmer with a knack for crafting
-            robust and scalable web applications. With 1 year of hands-on
-            experience, I have honed my skills in full stack development technologies like
-            React, express,nodejs,MongoDB and Vite. My goal is to leverage my expertise to create
-            innovative solutions that drive business growth and deliver
-            exceptional user experiences.
+              Programming: C/C++, Python, MySQL <br/>
+              Development: HTML, CSS, JavaScript, React <br/>
+              Machine Learning: Pandas, NumPy, Matplotlib <br/>
+              Technologies: Git, GitHub <br/>
+              Tools: VS Code, PyCharm<br/>
+              Others: Leadership, Teamwork, Communication <br/>
+
           </motion.p>
         </div>
         <div className="w-full lg:w-1/2">

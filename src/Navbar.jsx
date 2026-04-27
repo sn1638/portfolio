@@ -3,6 +3,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { SiCodechef } from "react-icons/si";
 import { SiCodeforces } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
 import { motion } from 'framer-motion';
 
 export default function Navbar() {
@@ -46,6 +47,13 @@ export default function Navbar() {
               className="hover:bg-gray-700  py-2 rounded"
             >
               <SiCodeforces size={25}/>
+            </a>
+            <a
+              href="https://leetcode.com/u/sn1638"
+              target="_blank"
+              className="hover:bg-gray-700  py-2 rounded"
+            >
+              <SiLeetcode size={25}/>
             </a>
           </div>
 

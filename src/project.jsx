@@ -5,10 +5,10 @@ export default function Project() {
 	const projects = [
 			{
 				id: 1,
-				title: 'Password Vault- full stack project',
-				description: 'Password Vault is a secure web application that enables users to generate, store, and manage strong passwords in a private encrypted vault. Users can register, log in securely, and perform operations like adding, viewing, editing, and deleting saved credentials. The frontend is developed using React and Tailwind CSS for a clean, responsive, and fast user interface, while the backend uses Node.js, Express, and MongoDB for efficient data handling and scalability.',
-				repo: 'https://github.com/sn1638/pass_vault_client',
-				live: 'https://pass-vault1638.vercel.app/',
+				title: 'Fake news predictor',
+				description: 'Developed a Fake News Detection system using Natural Language Processing techniques. Performed data preprocessing including text cleaning, stopword removal, and stemming, followed by feature extraction using TF-IDF. Trained a Logistic Regression model achieving ~97% accuracy on test data, enabling effective classification of news articles as real or fake.',
+				repo: 'https://github.com/sn1638/fake-news-predictor/blob/main/Untitled.ipynb',
+				live: 'https://github.com/sn1638/fake-news-predictor/blob/main/Untitled.ipynb',
 			},
 			{
 				id: 2,
