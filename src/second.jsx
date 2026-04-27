@@ -10,7 +10,7 @@ export default function Second() {
              animate={{ x: 0 ,opacity:1}}
             transition={{ duration:1, repeat: 0, ease: 'easeInOut' }}
           >
-            Sachin kumar verma
+            Sachin Kumar Verma
           </motion.div>
           <motion.div
             className="border border-gray-700 border-t-0 border-b-0 pb-1 bg-gray-900 text-center text-3xl text-white"
